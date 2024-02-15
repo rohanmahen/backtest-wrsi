@@ -61,7 +61,9 @@ With dependencies installed, launch JupyterLab or Jupyter Notebook:
 ```bash
 jupyter lab
 ```
+
 Or for Jupyter Notebook:
+
 ```bash
 jupyter notebook
 ```
@@ -71,10 +73,6 @@ Navigate through the Jupyter interface to open `backtest.ipynb`. You can now int
 ## Notebook Overview
 
 `backtest.ipynb` contains Python code and markdown cells that guide you through the process of fetching Ethereum price data, calculating WRSI, and evaluating trading signals for profitability. Then you can it iterates over the key parameters to identify the most strategy outperformance vs buy-and-hold.
-
-## Contributing
-
-Contributions to improve the notebook or explore new strategies are welcome. Please fork the repository and submit pull requests with your enhancements.
 
 ## License
 
