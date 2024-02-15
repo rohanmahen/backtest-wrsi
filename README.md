@@ -1,77 +1,81 @@
-# WRSI Backtesting Strategy
+# WRSI Backtesting Strategy Notebook
 
-This project implements a backtesting strategy using the Wilder's Relative Strength Index (WRSI) on Ethereum (ETH) price data. It aims to identify optimal parameters for buy and sell signals based on WRSI to maximize returns.
+This Jupyter notebook implements a backtesting strategy using Wilder's Relative Strength Index (WRSI) on Ethereum (ETH) price data. It explores optimal buy and sell signal parameters to maximize trading strategy returns.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Follow these instructions to get the notebook up and running on your local machine for development, testing, or exploration purposes.
 
 ### Prerequisites
 
-Ensure you have Python installed on your system. This project is built with Python 3.8 or later.
+- Python 3.8 or later
+- Jupyter Notebook or JupyterLab installed in your Python environment
+- Basic familiarity with Python and Jupyter notebooks
 
 ### Setting Up a Virtual Environment
 
-To avoid conflicts with other projects or your global Python installation, it's recommended to use a virtual environment. Here's how to set it up:
+Creating a virtual environment is recommended to manage dependencies without affecting your global Python setup.
 
-1. **Create a Virtual Environment:**
-
-   Navigate to your project's directory in the terminal and run:
+1. **Navigate to your project directory** and create a virtual environment:
 
    ```bash
    python -m venv venv
    ```
 
-   This command creates a virtual environment named `venv` in your project directory.
+2. **Activate the virtual environment:**
 
-2. **Activate the Virtual Environment:**
-
-   - On Windows, activate the virtual environment by running:
+   - Windows:
 
      ```bash
      .\venv\Scripts\activate
      ```
 
-   - On macOS and Linux, use:
+   - macOS/Linux:
 
      ```bash
      source venv/bin/activate
      ```
 
-   Your command line will now show the name of the activated virtual environment, indicating that any Python or pip commands will operate within this isolated environment.
-
 ### Installing Dependencies
 
-With the virtual environment activated, install the project dependencies by running:
+With the virtual environment activated, install the necessary dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This command reads the `requirements.txt` file and installs all the necessary Python packages. For this project, your `requirements.txt` should include:
+Your `requirements.txt` should include the necessary libraries, such as:
 
 ```
 numpy
 pandas
 matplotlib
 yfinance
+jupyterlab
 ```
 
-### Running the Project
+### Running the Notebook
 
-With the dependencies installed, you can run the project's main notebook script:
+With dependencies installed, launch JupyterLab or Jupyter Notebook:
 
 ```bash
-python main.py
+jupyter lab
+```
+Or for Jupyter Notebook:
+```bash
+jupyter notebook
 ```
 
-Replace `main.py` with the name of your Python script containing the backtesting strategy.
+Navigate through the Jupyter interface to open `backtest.ipynb`. You can now interact with the notebook, running cells to execute the backtest strategy.
 
-## Strategy Overview
+## Notebook Overview
 
-The project uses WRSI to generate buy and sell signals for ETH-USD based on predefined thresholds. Then you can iterates through a range of parameters to find the combination that results in the best performance over the specified backtest period.
+`backtest.ipynb` contains Python code and markdown cells that guide you through the process of fetching Ethereum price data, calculating WRSI, and evaluating trading signals for profitability. Then you can it iterates over the key parameters to identify the most strategy outperformance vs buy-and-hold.
+
+## Contributing
+
+Contributions to improve the notebook or explore new strategies are welcome. Please fork the repository and submit pull requests with your enhancements.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+This project is licensed under the MIT License. See the LICENSE file in the repository for more information.
