@@ -77,3 +77,9 @@ Navigate through the Jupyter interface to open `backtest.ipynb`. You can now int
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file in the repository for more information.
+
+## Disclaimer!
+
+This notebook and its contents are for informational and educational purposes only and should not be construed as financial advice. The strategies and analyses discussed in this notebook are not recommendations to buy, sell, or hold any securities or digital assets. The authors and contributors of this notebook are not responsible for any losses, damages, or other consequences that may result from applying the strategies or using the information provided. Users should conduct their own research and consult with a professional financial advisor before making investment decisions. The market data used in this notebook is believed to be from reliable sources, but its accuracy and completeness cannot be guaranteed.
+
+By using this notebook, you acknowledge and agree to this disclaimer and assume full responsibility for any and all of your actions.
